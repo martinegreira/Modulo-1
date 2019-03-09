@@ -1,0 +1,46 @@
+h1 {
+    background: rgba(173, 216, 230, 0.212);
+    width: 150px;
+    height: 2rem;
+    padding: 10px;
+    /*padding-top,padding-right,padding-bottom,padding-left*/
+    margin: 0 auto;
+    border: 3.5px solid blue;
+    box-sizing: content-box
+}
+
+h2 {
+    background: lightcoral;
+    margin: 0 auto;
+    width: 120px
+}
+
+#cabecera2 {
+    background: lightcoral;
+    margin: 0 auto;
+    width: 140px
+}
+
+ul {
+    margin: 2rem;
+    list-style: none;
+}
+
+li {
+    background: lightgreen;
+    display: inline;
+    margin: 11px;
+}
+
+p {
+    background: lightpink;
+    margin: 20px
+}
+
+strong {
+    background: lightslategray;
+}
+
+em {
+    background: lightseagreen
+}

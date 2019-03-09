@@ -1,0 +1,4 @@
+[href ^="https"] {
+    background: purple;
+    color: saddlebrown
+}

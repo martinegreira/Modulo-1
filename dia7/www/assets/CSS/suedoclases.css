@@ -1,0 +1,32 @@
+li:first-child {
+    color: blue;
+    background: lightblue
+}
+
+li:last-child {
+    background: red
+}
+
+li:nth-child(2) {
+    background: green
+}
+
+.importante {
+    border: 1rem solid white
+}
+
+li:empty {
+    background: coral
+}
+
+li:only-child {
+    background: firebrick
+}
+
+p:nth-of-type(2) {
+    border-top: 1rem soli blue
+}
+
+a:hover {
+    color: violet
+}

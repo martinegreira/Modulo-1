@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+    min-height: 100vh;
+}
+
+body>header {
+    background: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1, header h2 {
+    margin: 0;
+    padding: 4rem;
+    font-size: 4rem;
+}
+
+body>article {
+    flex-grow: 1;
+    display: flex
+}
+
+body>article>figure {
+    order: -1;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+body>article>figure img {
+    max-width: 80%;
+}
+
+body>article>header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+}

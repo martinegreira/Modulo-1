@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formularios 2</title>
+  </head>
+  <body>
+    <form action="." method="GET">
+      <fieldset>
+        <legend>Datos</legend>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" autofocus />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" />
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url" />
+        <br />
+        <label for="mensaje">Envia tu mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea>
+        <br />
+        <label for="pokemonfav">Elije un Pokemon</label>
+        <select name="pokemonfav" id="pokemonfav" size="2">
+          <option>Elije un Pokemon</option>
+          <option value="chimchar">chimchar</option>
+          <option value="totodile">totodile</option>
+          <option value="charmander">charmander</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Mas cosas</legend>
+        <label for="12">Noticias</label>
+        <input type="checkbox" name="noticias" id="noticias" checked />
+      </fieldset>
+      <fieldset>
+        <legend>Comida favorita</legend>
+        <ul>
+          <li>
+            <label for="comida">arroz</label>
+            <input type="radio" name="comida" id="comida" value="arroz" />
+          </li>
+          <li>
+            <label for="comida1">pesto</label>
+            <input type="radio" name="comida" id="comida1" value="pesto" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Muchas cosas</legend>
+        <label for="edad">Tu edad</label>
+        <input type="number" name="edad" id="edad" />
+        <br />
+        <label for="nacimiento">Fecha de nacimiento</label>
+        <input type="week" name="nacimiento" id="nacimientos" />
+        <br />
+        <label for="color">colores</label>
+        <input type="color" name="color" id="color" />
+        <br />
+        <label for="uwu">mandanos tus archivos</label>
+        <input type="file" name="uwu" id="uwu" />
+        <label for="range">elige un rango</label>
+        <input type="range" id="rango" />
+      </fieldset>
+      <button type="submit">Enviar</button>
+      <button type="reset">resetear</button>
+      <button type="button">adios</button>
+    </form>
+  </body>
+</html>

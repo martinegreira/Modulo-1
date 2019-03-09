@@ -1,0 +1,38 @@
+p::first-letter {
+    color: brown;
+    font-size: 2rem
+}
+
+p::first-line {
+    background: coral
+}
+
+p::selection {
+    background: red;
+    text-decoration: overline;
+    text-shadow: 2px 3px 4px green
+}
+
+a[hreft]::after {
+    content: "prox"
+}
+
+p, a {
+    color: violet
+}
+
+header p {
+    color: blue
+}
+
+header>h1 {
+    background: darkblue
+}
+
+h1+p {
+    border-top: 2rem solid red
+}
+
+h1~p {
+    background: red
+}

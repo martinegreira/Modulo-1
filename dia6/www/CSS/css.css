@@ -1,0 +1,15 @@
+a:hover {
+    background: aqua
+}
+
+input:checked {
+    width: 50rem
+}
+
+li:first-child {
+    background: red
+}
+
+li:last-child {
+    background: yellowgreen
+}

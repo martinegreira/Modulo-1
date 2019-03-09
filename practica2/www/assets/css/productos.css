@@ -1,0 +1,61 @@
+@import 'generico.css';
+#cabecera {
+    margin-top: 2rem;
+    font-size: 3rem
+}
+
+section>article {
+    display: flex;
+    padding: 3rem;
+}
+
+section>article>div>h2 {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem
+}
+
+section>article>div>p {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 20px
+}
+
+button {
+    margin-left: 2rem;
+}
+
+#pollo {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+section>#table {
+    width: 100%;
+    border: 2px solid black
+}
+
+section>table>tr>.uwu {
+    margin-right: 3rem;
+}
+
+th {
+    text-align: left;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black
+}
+
+@media (min-width: 800px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article {
+        width: 50px;
+    }
+}

@@ -1,0 +1,29 @@
+#contenido {
+    border: 10px dashed blueviolet;
+    color: aqua;
+}
+
+.importante {
+    animation: normal;
+    text-decoration-color: yellowgreen;
+    animation-delay: initial;
+    font-size: xx-small;
+    background: gold;
+    animation-duration: initial;
+    -ms-overflow-style: scrollbar;
+    background-attachment: fixed;
+    visibility: 10;
+    font-size: 3rem;
+    max-height: 60rem;
+    empty-cells: -moz-show-background;
+    fill-rule: evenodd
+}
+
+[href] {
+    color: green;
+    background: navy
+}
+
+[data-uwu~="owo"] {
+    color: black
+}

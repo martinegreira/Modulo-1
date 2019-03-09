@@ -1,0 +1,48 @@
+#cabecera {
+    color: blueviolet;
+}
+
+p {
+    background: violet;
+}
+
+h1 {
+    color: navy;
+}
+
+.parrafo {
+    color: white;
+}
+
+.cabecera {
+    background: darkblue;
+}
+
+[href] {
+    color: yellowgreen;
+}
+
+[lang="es"] {
+    background: lightcoral;
+}
+
+[data-links] {
+    border-width: 100px solid blue;
+    background: lightseagreen
+}
+
+[data-links=links] {
+    border: 0.2rem solid red
+}
+
+[data-links="links"] {
+    border-top: 0.1rem solid black
+}
+
+h1 {
+    color: brown
+}
+
+#prueba {
+    color: aquamarine
+}

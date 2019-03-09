@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contactame</title>
+    <link rel="stylesheet" href="assets/css/contactame.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h1>Productos Pokemon</h1>
+      <nav>
+        <ul>
+          <li><a class="boton" href="/">Portada</a></li>
+          <li><a class="boton" href="productos.html">Produtos</a></li>
+          <li><a class="boton" href="contactame.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2 id="cabecera">Contactos</h2>
+      <form action="." method="GET"></form>
+      <label for="Nombre">Nombre</label>
+      <input type="text" id="Nombre" />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <label for="comentario">Comentario</label>
+      <textarea
+        name="comentario"
+        id="comentario"
+        cols="40"
+        rows="10"
+      ></textarea>
+      <label for="provincia">Provincia</label>
+      <select name="provincia" id="provincia">
+        <option value="coruña">Coruña</option>
+        <option value="ferrol">Pontevedra</option>
+        <option value="sada">Ourense</option>
+        <option value="oleiros">Lugo</option>
+      </select>
+      <label for="Ciudad">Ciudad</label>
+      <select name="ciudad" id="ciudad">
+        <option value="sada">Sada</option>
+        <option value="ferrol">Ferrol</option>
+        <option value="Coruña">Coruña</option>
+      </select>
+      <button type="submit">Enviar</button>
+    </section>
+    <section id="clase">
+      <a
+        href="https://www.google.com/maps/place/Minato,+Tokio,+Jap%C3%B3n/@35.6528953,139.7282409,14z/data=!3m1!4b1!4m5!3m4!1s0x60188bbbb41922f3:0x33ebfd75f2f06cac!8m2!3d35.6580681!4d139.7515992"
+      >
+        <img
+          src="/assets/img/mapa.png"
+          alt="mapa de donde esta la empresa"
+          width="500"
+      /></a>
+
+      <div id="ewe">
+        <h2 id="hola" class="direc">Direccion</h2>
+        <h3 class="direc">Centro Pokemon</h3>
+        <p class="direc">Calle Minato 9 15305 - Tokyo</p>
+      </div>
+      <div id="orden">
+        <h2>Tamen por:</h2>
+        <a id="margen" href="tel:923458234">
+          <h3>📱981 000 000</h3>
+        </a>
+        <h3>🐦 Pokemon Center</h3>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <h3>&copy; 2019 Hackabos</h3>
+      <p>Esta web ha sido echa en el curso de HTML y CSS de Hackabos</p>
+      <a href="/">Portada</a>
+      <a href="productos.html">Produtos</a>
+      <a href="contactame.html">Contacto</a>
+    </footer>
+  </body>
+</html>

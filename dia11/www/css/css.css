@@ -1,0 +1,41 @@
+html {
+    background: rgb(63, 68, 141)
+}
+
+body {
+    padding-top: 20rem;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white
+}
+
+header>p {
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    color: white
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white
+}
+
+li {
+    background: rgb(81, 255, 0);
+    border: 2px solid rgb(53, 220, 20);
+    padding: 1rem 3.5rem;
+    color: white
+}
+
+section>p {
+    display: flex;
+    justify-content: center;
+    color: white
+}

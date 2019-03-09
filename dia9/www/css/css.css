@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'pokemon';
+    src: url('PokemonSolidNormal.woff2') format('woff2'), url('PokemonSolidNormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "pokemon" width: 100vh;
+    background: lightblue;
+    background-image: url(/css/Sobble.png), url(/css/Rowlet.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-position: left bottom, right bottom;
+}
